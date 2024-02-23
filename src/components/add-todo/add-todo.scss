@@ -1,0 +1,23 @@
+.add-todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  input {
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background: #1a1a1a;
+    color: #fff;
+  }
+}

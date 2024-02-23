@@ -1,0 +1,23 @@
+.todo-item {
+  display: flex;
+  place-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    background: #f8f8f8;
+  }
+
+  input {
+    margin-right: 1rem;
+  }
+
+  .todo-done {
+    text-decoration: line-through;
+    color: gray;
+  }
+}
